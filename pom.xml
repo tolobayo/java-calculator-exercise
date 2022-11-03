@@ -7,10 +7,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.codingblackfemales</groupId>
-    <artifactId>tdd-java-starter</artifactId>
+    <artifactId>the-calculator</artifactId>
     <version>1.0.0</version>
 
-    <name>tdd-java-starter</name>
+    <name>the-calculator</name>
     <url>https://codingblackfemales.com/academy</url>
 
     <properties>
