@@ -23,4 +23,21 @@ public class CalculatorTests {
 
         assertEquals(-2, difference);
     }
+
+    @Test
+    @DisplayName("divides two numbers")
+    public void testDividesTwoNumbers() {
+        final Integer quotient = Calculator.divide(4, 2);
+
+        assertEquals(2, quotient);
+    }
+    
+    @Test
+    @DisplayName("divide by zero throws proper error")
+    public void testDivideByZero() {
+        final Integer quotient = Calculator.divide(4, 0);
+
+        assertEquals(0, quotient);
+    }
+    
 }

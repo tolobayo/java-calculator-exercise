@@ -14,6 +14,7 @@ public class Calculator {
     }
 
     public static Integer divide(final int firstInput, final int secondInput) {
-        return firstInput / secondInput;
+        
+        return secondInput == 0 ? 0 : firstInput / secondInput;
     }
 }
